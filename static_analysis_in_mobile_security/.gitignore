@@ -1,0 +1,18 @@
+# Ignore tous les fichiers
+*
+
+# Ne pas ignorer les dossiers, afin que Git puisse les parcourir
+!*/
+
+# Conserver ce fichier
+!.gitignore
+
+# Conserver les README, même dans les sous-dossiers
+!README*
+!**/README*
+!readme*
+!**/readme*
+
+# Conserver les fichiers de flag, par exemple 0-flag.txt
+!*-flag.txt
+!**/*-flag.txt
